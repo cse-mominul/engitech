@@ -160,7 +160,9 @@ const Navbar = () => {
                     <a>Critical Infrastructure Lifecycle Solution (CILS)</a>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
-                    <a>Data Centre as a Service</a>
+                    <Link to="/data-center-services">
+                      Data Centre as a Service
+                    </Link>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
                     <a>IT System Integration</a>

@@ -1,3 +1,5 @@
+import Datacenter from "../Pages/Datacenter/Datacenter";
+
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Main } = require("../Layout/Main/Main");
 const { default: ErrorPage } = require("../Pages/ErrorPage/ErrorPage");
@@ -12,6 +14,10 @@ const routes = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/data-center-services",
+        element: <Datacenter></Datacenter>,
       },
     ],
   },

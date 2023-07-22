@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import coverPic from "../../../Assets/dataCenters (2).jpg";
-import CoverPicTwo from "../../../Assets/it.jpg";
+import CoverPicTwo from "../../../Assets/2807760_18135-removebg.png";
 import COverPicThree from "../../../Assets/smart.png";
 const ImageSlider = () => {
   const sliderSettings = {
@@ -17,13 +17,13 @@ const ImageSlider = () => {
       <Slider {...sliderSettings}>
         {/* Silder One */}
         <div className="slide relative ">
-          <section class=" dark:bg-gray-900">
+          <section class=" dark:bg-[#010230]">
             <div class="grid bg-[#010230] max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div class="mr-auto place-self-center lg:col-span-7">
                 <h1 class="max-w-2xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
                   DCaaS (Data Center as a Service)
                 </h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                <p class="max-w-2xl pb-7 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                   Engitech’s DCaaS solutions offer a modern, secure, high
                   performing data centre through which we enable a significant
                   reduction in operating expenses and cost-effectiveness as
@@ -62,16 +62,19 @@ const ImageSlider = () => {
         </div>
         {/* Silder Two */}
         <div className="slide relative ">
-          <section class=" dark:bg-gray-900">
+          <section class=" dark:bg-[#010230]">
             <div class="grid bg-[#010230] max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div class="mr-auto place-self-center lg:col-span-7">
                 <h1 class="max-w-2xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
                   IT System Integration
                 </h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                <p class="max-w-2xl pb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                   Engitech offers extensive services for the integration of
                   solutions into existing systems or custom solutions for the
                   connection of all relevant interfaces.
+                  <br />
+                  <br />
+                  <br />
                 </p>
                 <a
                   href="#"
@@ -98,8 +101,8 @@ const ImageSlider = () => {
                   Speak to Sales
                 </a>
               </div>
-              <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img className="h-96" src={CoverPicTwo} alt="DataCenter" />
+              <div className="hidden lg:mt-0 lg:col-span-5 bg-[#010230] pb-14 pt-2 lg:flex">
+                <img className="h-120" src={CoverPicTwo} alt="DataCenter" />
               </div>
             </div>
           </section>
@@ -112,10 +115,13 @@ const ImageSlider = () => {
                 <h1 class="max-w-2xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
                   Smart Building
                 </h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                <p class="max-w-2xl pb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                   Engitech’s smart building solution provides you with smaller,
                   scalable, and lower-power connectivity solutions that empower
                   a platform approach to building automation.
+                  <br />
+                  <br />
+                  <br />
                 </p>
                 <a
                   href="#"
