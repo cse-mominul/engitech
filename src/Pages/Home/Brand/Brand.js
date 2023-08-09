@@ -11,7 +11,10 @@ const Brand = () => {
         A Service that Loves You Back
       </h3>
       <body className="p-4 flex flex-col gap-4 lg:flex-row justify-center items-center">
-        <div className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center">
+        <div
+          data-aos="zoom-in"
+          className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center"
+        >
           <img src={data} alt="Image 1" className="w-30 h-30  mb-4" />
           <p className="text-center font bold text-gray-900">
             Dedicated Servers
@@ -24,7 +27,10 @@ const Brand = () => {
           </p>
         </div>
 
-        <div className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center">
+        <div
+          data-aos="zoom-in"
+          className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center"
+        >
           <img src={rapid} alt="Image 1" className="w-30 h-30  mb-4" />
           <p className="text-center font bold text-gray-900">Rapid Services</p>
           <p>
@@ -35,7 +41,10 @@ const Brand = () => {
           </p>
         </div>
 
-        <div className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center">
+        <div
+          data-aos="zoom-in"
+          className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center"
+        >
           <BsCashCoin className="text-6xl text-[#B45EE9] mb-4"></BsCashCoin>
           <p className="text-center font bold text-gray-900">
             {" "}
@@ -49,7 +58,10 @@ const Brand = () => {
           </p>
         </div>
 
-        <div className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center">
+        <div
+          data-aos="zoom-in"
+          className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center"
+        >
           <BiSupport className="text-6xl text-[#18C3BB] mb-4"></BiSupport>
           <p className="text-center font bold text-gray-900">
             {" "}
@@ -62,7 +74,10 @@ const Brand = () => {
             </p>
           </p>
         </div>
-        <div className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center">
+        <div
+          data-aos="zoom-in"
+          className="bg-white shadow rounded-lg p-4 w-48 flex flex-col items-center"
+        >
           <FcEngineering className="text-6xl text-[#18C3BB] mb-4"></FcEngineering>
           <p className="text-center font bold text-gray-900">
             {" "}

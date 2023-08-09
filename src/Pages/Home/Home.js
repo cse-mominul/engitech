@@ -11,7 +11,6 @@ const Home = () => {
       <ImageSlider></ImageSlider>
       <DataCenters></DataCenters>
       <Brand></Brand>
-      <Footer></Footer>
     </div>
   );
 };

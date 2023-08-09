@@ -165,10 +165,12 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
-                    <a>IT System Integration</a>
+                    <Link to="/it-system-integration">
+                      IT System Integration
+                    </Link>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
-                    <a>Smart building</a>
+                    <Link to="/smart-city">Smart building</Link>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
                     <a>Smart board room</a>
@@ -183,10 +185,10 @@ const Navbar = () => {
                 </summary>
                 <ul className="p-2 backdrop-blur-lg bg-white/30">
                   <li className="hover:text-[#224E91] text-black">
-                    <a>Access control system</a>
+                    <Link to="/access-control">Access control system</Link>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
-                    <a>Building management system</a>
+                    <Link to="/B-M-S">Building management system</Link>
                   </li>
                   <li className="hover:text-[#224E91] text-black">
                     <a>Cctv solution</a>
@@ -240,9 +242,12 @@ const Navbar = () => {
               </details>
             </li>
             <li>
-              <button className="text-gray-700 text-lg hover:text-[#224E91]">
+              <Link
+                to="/about-us"
+                className="text-gray-700 text-lg hover:text-[#224E91]"
+              >
                 About Us
-              </button>
+              </Link>
             </li>
           </ul>
         </div>

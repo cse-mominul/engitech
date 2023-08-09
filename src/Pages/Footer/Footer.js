@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -23,9 +24,15 @@ const Footer = () => {
           <a className="link link-hover">
             Critical Infrastructure Lifecycle Solution (CILS)
           </a>
-          <a className="link link-hover">Smart board room</a>
-          <a className="link link-hover">IT System Integration</a>
-          <a className="link link-hover">Data Centre as a Service</a>
+          <Link to="/smart-city" className="link link-hover">
+            Smart board room
+          </Link>
+          <Link to="/it-system-integration" className="link link-hover">
+            IT System Integration
+          </Link>
+          <Link to="/data-center-services" className="link link-hover">
+            Data Centre as a Service
+          </Link>
         </div>
         <div>
           <span className="footer-title">Company</span>
