@@ -8,7 +8,7 @@ import { BiDonateHeart } from "react-icons/bi";
 
 const Aboutus = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white w-full">
       {" "}
       <div className="hero min-h-screen ">
         <div className="flex-col hero-content lg:flex-row-reverse">

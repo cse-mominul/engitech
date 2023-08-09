@@ -7,7 +7,7 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div className="pt-16">
+    <div className="pt-16 w-full">
       <ImageSlider></ImageSlider>
       <DataCenters></DataCenters>
       <Brand></Brand>
