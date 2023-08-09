@@ -65,10 +65,10 @@ const ImageSlider = () => {
           <section class=" dark:bg-[#010230]">
             <div class="grid bg-[#010230] max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
+                <h1 class="max-w-2xl text-white  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
                   IT System Integration
                 </h1>
-                <p class="max-w-2xl pb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                <p class="max-w-2xl text-white  pb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                   Engitech offers extensive services for the integration of
                   solutions into existing systems or custom solutions for the
                   connection of all relevant interfaces.
@@ -112,10 +112,10 @@ const ImageSlider = () => {
           <section class=" dark:bg-gray-900">
             <div class="grid bg-[#010230] max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
               <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
+                <h1 class="max-w-2xl text-white  mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
                   Smart Building
                 </h1>
-                <p class="max-w-2xl pb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                <p class="max-w-2xl text-white  pb-8 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                   Engitech’s smart building solution provides you with smaller,
                   scalable, and lower-power connectivity solutions that empower
                   a platform approach to building automation.
